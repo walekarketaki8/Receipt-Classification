@@ -22,12 +22,12 @@ Converting processed text into numerical data-
 * Machine learning algorithms understand numbers not text. To convert the text data into numbers "TfidfVectorizer" is used. This vectorizer will convert text into numbers on basis of how often this words came into text corpus as whole. It will give more weightage to rare words.
 
 Train classifier-
-
+* Training code is available in 'train_classifier.py'. Need to give path of 'TEXT_DATA' which we got from 'convert_image_to_text.py' eplained in the Image to text conversion section above.
 * In Receipt filter oreder of the words does not matter much(similar to the Spam filter in the Emails). Experimented with 2 approaches using Naive Bayes classifier and SVM classifier.
 * Using Naive Bayes classifier got test accuracy around 66 % and with the same data SVM classifier is giving around 86 % which is pretty good. Final model is trained with SVM classifier and saved model into pickle file(model.pkl).
 
 Test classifier(Input is image)-
 * Testing code is available in 'Testing Code.ipynb'. Need to give image path as user input.
-* For testing we need to send image path to the code "test_classifier.py"
+* Testing code is available in python file 'test_classifier.py' here we need to specify image path as system argument.
 * Example use for python script : python test_classifier.py './image.jpg'
 * Output will be the string which is either RECEIPT" or "Not a RECEIPT"
