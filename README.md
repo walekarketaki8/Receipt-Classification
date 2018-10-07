@@ -26,7 +26,7 @@ Train classifier-
 * In Receipt filter oreder of the words does not matter much(similar to the Spam filter in the Emails). Experimented with 2 approaches using Naive Bayes classifier and SVM classifier.
 * Using Naive Bayes classifier got test accuracy around 66 % and with the same data SVM classifier is giving around 86 % which is pretty good. Final model is trained with SVM classifier and saved model into pickle file(model.pkl).
 
-Test classifier(Input is image)-
+Test classifier-
 * Testing code is available in 'Testing Code.ipynb'. Need to give image path as user input.
 * Testing code is available in python file 'test_classifier.py' here we need to specify image path as system argument.
 * Example use for python script : python test_classifier.py './image.jpg'
