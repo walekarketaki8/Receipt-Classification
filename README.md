@@ -27,10 +27,7 @@ Train classifier-
 * Using Naive Bayes classifier got test accuracy around 66 % and with the same data SVM classifier is giving around 86 % which is pretty good. Final model is trained with SVM classifier and saved model into pickle file(model.pkl).
 
 Test classifier(Input is image)-
-
+* Testing code is available in 'Testing Code.ipynb'. Need to give image path as user input.
 * For testing we need to send image path to the code "test_classifier.py"
-* Example use for python script : python test_classifier.py '/image.jpg'
-* Example use for jupyter notebook "Test Classifier" section : ./TEST_DATA/dt_23.jpg
+* Example use for python script : python test_classifier.py './image.jpg'
 * Output will be the string which is either RECEIPT" or "Not a RECEIPT"
-
-
