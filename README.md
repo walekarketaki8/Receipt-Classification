@@ -1,4 +1,4 @@
-                                     
+## Receipt Classification From Image - Receipt/Not Receipt                                
 ML Pipeline:
 Dataset Collection(Positive + Negative) --> Image to text conversion --> Processing on text --> Converting processed text into numerical data --> Train classifier --> Test classifier(Input is image)
 
