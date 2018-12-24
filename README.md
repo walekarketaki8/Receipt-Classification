@@ -31,3 +31,5 @@ Test classifier-
 * Testing code is available in python file 'test_classifier.py' here we need to specify image path as system argument.
 * Example use for python script : python test_classifier.py './image.jpg'
 * Output will be the string which is either RECEIPT" or "Not a RECEIPT"
+
+![sample-result](sample_ouput.png)
